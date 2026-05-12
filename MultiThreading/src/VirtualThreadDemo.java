@@ -5,7 +5,7 @@ public class VirtualThreadDemo {
     public static void main(String[] args)
             throws InterruptedException {
 
-        ExecutorService executor =
+       /* ExecutorService executor =
                 Executors.newVirtualThreadPerTaskExecutor(); // avl from java 21+
 
         for (int i = 1; i <= 10000; i++) {
@@ -24,6 +24,6 @@ public class VirtualThreadDemo {
             });
         }
 
-        executor.shutdown();
+        executor.shutdown();*/
     }
 }
